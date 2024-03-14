@@ -94,7 +94,12 @@ $ git commit -am "커밋메시지"
 
 
 <메시지가 없는 빈 커밋>
+커밋은 반드시 커밋 메시지를 같이 작성해야함. 메시지가 없는 커밋 = '빈 커밋'
 
+
+<세 번째 커밋>
+'--allow-empty-message' 옵션 사용
+: $ git commit --allow-empty-message -m ""   <- 커밋 메시지를 작성하지 않음.
 
 
 
